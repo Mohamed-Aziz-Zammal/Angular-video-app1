@@ -1,7 +1,7 @@
 # Video Calling App with ZegoUIKitPrebuilt
 
 ## Overview
-This project is an Angular-based video calling application that utilizes the ZegoUIKitPrebuilt SDK. The app allows users to join a video call by entering a room ID. It is designed with a simple interface where users can input a room ID and be redirected to the video call room.
+This project is an Angular-based video calling application that utilizes the [ZegoUIKitPrebuilt SDK](https://www.zegocloud.com/). The app allows users to join a video call by entering a room ID. It is designed with a simple interface where users can input a room ID and be redirected to the video call room.
 
 ## Features
 - **Join Video Calls**: Users can join a video call by entering a room ID.
@@ -10,7 +10,7 @@ This project is an Angular-based video calling application that utilizes the Zeg
 
 ## Technologies Used
 - **Angular**: The primary framework used for building the application.
-- **ZegoUIKitPrebuilt**: A prebuilt UI SDK for adding video calling features easily.
+- **ZegoUIKitPrebuilt**: A prebuilt UI SDK for adding video calling features easily. You can find more information in the [official documentation](https://www.zegocloud.com/docs/uikit/callkit-web/quick-start/using-npm-package-manager).
 - **TypeScript**: The programming language used to develop the Angular app.
 
 ## How It Works
