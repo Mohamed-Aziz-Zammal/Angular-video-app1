@@ -1,27 +1,51 @@
-# VideoApp
+# Video Calling App with ZegoUIKitPrebuilt
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+## Overview
+This project is an Angular-based video calling application that utilizes the ZegoUIKitPrebuilt SDK. The app allows users to join a video call by entering a room ID. It is designed with a simple interface where users can input a room ID and be redirected to the video call room.
 
-## Development server
+## Features
+- **Join Video Calls**: Users can join a video call by entering a room ID.
+- **Prebuilt UI**: The app uses ZegoUIKitPrebuilt for a prebuilt video calling UI.
+- **Dynamic Room IDs**: The app generates and uses dynamic room IDs to join calls.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies Used
+- **Angular**: The primary framework used for building the application.
+- **ZegoUIKitPrebuilt**: A prebuilt UI SDK for adding video calling features easily.
+- **TypeScript**: The programming language used to develop the Angular app.
 
-## Code scaffolding
+## How It Works
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Home Component
+- The user enters a room ID in the input field.
+- Upon submitting, the user is redirected to the video call room associated with that room ID.
 
-## Build
+### Room Component
+- The room component generates a Kit Token using the provided `appID` and `serverSecret`.
+- The ZegoUIKitPrebuilt SDK is used to create a video calling room with the specified room ID.
+- The video call UI is embedded in the component's view.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+### Clone the Repository
+```bash
+git clone https://github.com/YourUsername/YourRepositoryName.git
+cd YourRepositoryName
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Install Dependencies
+```sh
+npm install
 
-## Running end-to-end tests
+### Start the Development Server
+```sh
+ng serve
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Screenshots
 
-## Further help
+### Home Page
+![Home Page](image/home_page.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Video Call Room
+![Video Call Room](image/video_call_room.png)
+
+
+![Settings Menu](image/video_call.png)
