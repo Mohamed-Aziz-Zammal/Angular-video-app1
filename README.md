@@ -30,14 +30,17 @@ This project is an Angular-based video calling application that utilizes the Zeg
 ```bash
 git clone https://github.com/YourUsername/YourRepositoryName.git
 cd YourRepositoryName
+```
 
 ### Install Dependencies
 ```sh
 npm install
+```
 
 ### Start the Development Server
 ```sh
 ng serve
+```
 
 ## Screenshots
 
